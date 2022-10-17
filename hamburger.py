@@ -5,7 +5,7 @@ import random
 class Order:
     def __init__(self, randBurger):
         self.burger_count = 0
-        randBurger = randBurger
+        # randBurger = randBurger
 
     def randomBurgers(self, randBurg):
         randBurg = random.randrange(1,21)
