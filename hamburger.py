@@ -30,6 +30,6 @@ class Customer(Person):
 
 
 
-burgOrder = Order(10)
+burgOrder = Order()
 burgOrder.randBurger = burgOrder.randomBurgers()
 print(Person().customerName(), burgOrder.randBurger)
