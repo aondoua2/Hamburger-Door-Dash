@@ -32,4 +32,4 @@ class Customer(Person):
 
 burgOrder = Order(10)
 burgOrder.randBurger = burgOrder.randomBurgers()
-print(burgOrder.randBurger)
+print(Person().customerName(), burgOrder.randBurger)
