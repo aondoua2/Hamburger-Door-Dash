@@ -1,5 +1,4 @@
-# Oliver Escobar
-# Karl Nordgren
+# Oliver Escobar, Karl Nordgren, Ashley Ondoua, Thayne Evans, Tayler Howard, Zack Olsen
 
 import random
 
