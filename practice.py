@@ -1,7 +1,6 @@
 # Oliver Escobar
 # Practice for Burger Assignment
 
-from ast import Or
 import random
 
 
