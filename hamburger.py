@@ -28,6 +28,8 @@ class Customer(Person):
         super().__init__()
         self.order = order
 
+
+
 burgOrder = Order()
 burgOrder.randBurger = burgOrder.randomBurgers()
 print(Person().customerName(), burgOrder.randBurger)
