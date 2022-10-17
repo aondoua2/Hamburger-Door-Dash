@@ -5,9 +5,9 @@ import random
 # ASK!!! The constructor should call the randomBurgers() method and assign the return 
 # value to the burger_count instance variable
 class Order:
-    def __init__(self, randBurger):
+    def __init__(self):
         self.burger_count = 0
-        self.randBurger = randBurger
+        self.randBurger = 0
         # randBurger = randBurger
 
     def randomBurgers(self):
