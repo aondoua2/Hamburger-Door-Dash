@@ -29,6 +29,6 @@ class Customer(Person):
 
 
 
-order = Order(10)
-order.randBurger = order.randomBurgers()
-print(order.randBurger)
+burgOrder = Order(10)
+burgOrder.randBurger = burgOrder.randomBurgers()
+print(burgOrder.randBurger)
