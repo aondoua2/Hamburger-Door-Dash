@@ -9,7 +9,6 @@ class Order:
 
     def randomBurgers(self):
         self.randBurg = random.randrange(1,21)
-
         return self.randBurg
         
 class Person:
@@ -24,7 +23,6 @@ class Customer(Person):
     def __init__(self, order):
         super().__init__()
         self.order = order
-
 
 
 burgOrder = Order()
