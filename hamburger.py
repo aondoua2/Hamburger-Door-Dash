@@ -16,12 +16,13 @@ class Order:
         return self.randBurg
         
 class Person:
-    def __init__(self, customer_name):
-        self.customer_name = customer_name
+    def __init__(self):
+        self.customer_name = ""
 
     def customerName(self):
         self.asCustomers = ["Jefe", "El Guapo", "Lucky Day", "Ned Nederlander", "Dusty Bottoms", "Harry Flugleman", "Carmen", "Invisible Swordsman", "Singing Bush"]
-
+        self.customer_name = random.choice(self.asCustomers)
+        return self.customer_name
 class Customer(Person):
     def __init__(self, order):
         super().__init__()
