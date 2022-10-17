@@ -6,9 +6,9 @@ import random
 class Order:
     def __init__(self, randBurger):
         self.burger_count = 0
-        randBurger = randBurger
+        self.randBurger = 10
 
-    def randomBurgers(self, randBurg):
+    def randomBurgers(self):
         randBurg = random.randrange(1,21)
         return randBurg
         
@@ -26,6 +26,6 @@ class Customer(Person):
 
 
 
-order = Order()
-ranbBurg = order.randomBurgers(0)
-order(randBurg)
+order = Order(10)
+order.randBurger = order.randomBurgers()
+print(order.randBurger)
