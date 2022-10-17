@@ -1,12 +1,15 @@
-# Oliver Escobar
-# Karl Nordgren
+# Oliver Escobar, Karl Nordgren, Ashley Ondoua, Thayne Evans, Tayler Howard, Zack Olsen
 
 import random
 
 class Order:
     def __init__(self, randBurger):
         self.burger_count = 0
+<<<<<<< HEAD
         self.randBurger = 10
+=======
+        # randBurger = randBurger
+>>>>>>> a5a931569e8ce057d73b5dc850b17ce6b38e163f
 
     def randomBurgers(self):
         randBurg = random.randrange(1,21)
