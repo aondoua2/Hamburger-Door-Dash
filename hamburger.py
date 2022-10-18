@@ -19,12 +19,41 @@ class Person:
         self.asCustomers = ["Jefe", "El Guapo", "Lucky Day", "Ned Nederlander", "Dusty Bottoms", "Harry Flugleman", "Carmen", "Invisible Swordsman", "Singing Bush"]
         self.customer_name = random.choice(self.asCustomers)
         return self.customer_name
+        
 class Customer(Person):
     def __init__(self, order):
         super().__init__()
         self.order = order
 
 
+
 burgOrder = Order()
 burgOrder.randBurger = burgOrder.randomBurgers()
 print(Person().customerName(), burgOrder.randBurger)
+
+queueCustomers = []
+queueCustomers.append("Jefe") 
+queueCustomers.append("El Guapo")
+queueCustomers.append("Lucky Day") 
+queueCustomers.append("Ned Nederlander")
+queueCustomers.append("Dusty Bottoms")
+queueCustomers.append("Harry Flugleman")
+queueCustomers.append("Carmen")
+queueCustomers.append("Invisible Swordsman")
+queueCustomers.append("Singing Bush")
+
+
+for iCount in range(1, len(queueCustomers)):
+    
+dictCustomer = int(input("How many customers do you want to enter: "))
+
+dictCustomer = {
+                "Jefe" : "Alejandro",
+                "El Guapo" : "Lopez",
+                "Lucky Day" : "Freshman",
+                "Ned Nederlander" : 23,
+                "Dusty Bottoms" : 0,
+                "Harry Flugleman" : 0,
+                "Carmen" : 0,
+                
+                }    

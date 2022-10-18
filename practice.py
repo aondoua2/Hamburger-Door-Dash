@@ -30,4 +30,8 @@ myQueueVariable = 100
 Customer(myQueueVariable)
 myDictionaryVariable = 0
 
+customerNumber = 1
+queueCustomers = []
+queueCustomers.append("Customer")
+
 print (myCustomer, Order().randomBurger())
