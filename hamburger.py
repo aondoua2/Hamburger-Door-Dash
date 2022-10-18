@@ -45,15 +45,16 @@ queueCustomers.append("Singing Bush")
 
 for iCount in range(1, len(queueCustomers)):
     
-dictCustomer = int(input("How many customers do you want to enter: "))
+    dictCustomer = int(input("How many customers do you want to enter: "))
 
 dictCustomer = {
-                "Jefe" : "Alejandro",
-                "El Guapo" : "Lopez",
-                "Lucky Day" : "Freshman",
-                "Ned Nederlander" : 23,
+                "Jefe" : 0,
+                "El Guapo" : 0,
+                "Lucky Day" : 0,
+                "Ned Nederlander" : 0,
                 "Dusty Bottoms" : 0,
                 "Harry Flugleman" : 0,
                 "Carmen" : 0,
-                
+                "Invisible Swordsman": 0,
+                "Singing Bush": 0
                 }    
