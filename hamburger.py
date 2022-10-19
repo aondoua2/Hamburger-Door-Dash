@@ -1,3 +1,4 @@
+# Tracking the Number of Hamburgers Eaten by Each Customer of Hamburger Door Dash
 # Oliver Escobar, Karl Nordgren, Ashley Ondoua, Thayne Evans, Tayler Howard, Zack Olsen
 
 import random
@@ -25,28 +26,6 @@ class Customer(Person):
         super().__init__()
         self.order = order
 
-
-
-burgOrder = Order()
-burgOrder.randBurger = burgOrder.randomBurgers()
-print(Person().customerName(), burgOrder.randBurger)
-
-queueCustomers = []
-queueCustomers.append("Jefe") 
-queueCustomers.append("El Guapo")
-queueCustomers.append("Lucky Day") 
-queueCustomers.append("Ned Nederlander")
-queueCustomers.append("Dusty Bottoms")
-queueCustomers.append("Harry Flugleman")
-queueCustomers.append("Carmen")
-queueCustomers.append("Invisible Swordsman")
-queueCustomers.append("Singing Bush")
-
-
-for iCount in range(1, len(queueCustomers)):
-    
-    dictCustomer = int(input("How many customers do you want to enter: "))
-
 dictCustomer = {
                 "Jefe" : 0,
                 "El Guapo" : 0,
@@ -58,3 +37,54 @@ dictCustomer = {
                 "Invisible Swordsman": 0,
                 "Singing Bush": 0
                 }    
+                
+                
+
+burgOrder = Order()
+burgOrder.randBurger = burgOrder.randomBurgers()
+print(Person().customerName(), burgOrder.randBurger)
+
+# iSearch = Person.customer_name 
+# if iSearch in dictCustomer :
+
+
+# object creation for the person class since it does not inherit from order class
+personOrder = Person()
+
+for iCount in range(0, burgOrder):
+    print(Person().customerName(), burgOrder.randBurger)
+
+
+
+
+
+    
+numCustomer = int(input("How many customers do you want to enter: "))
+
+queueCustomers = []
+newCustomer = 100
+
+for iCount in range(1, numCustomer):
+    iRandomName = Person().customerName()
+    iRandomBurger = burgOrder.randBurg
+    queueCustomers.append(iRandomName)
+    if iRandomName in dictCustomer:
+        dictCustomer[iRandomName] + iRandomBurger
+    queueCustomers.pop[0]
+    #   dictCustomer[iSearch].customer_name = dictCustomer[iSearch].customer_name + randBurg
+
+# if we want to print the customer list -- just playing with the code for now
+for iCustomer in range (0, len(queueCustomers)):
+    print(str(queue))
+   
+
+
+iBurgerCount = "Jefe" + burgOrder.randBurger
+
+
+
+# Compile the dictionary into a list that is sorted from high to low. Print each name with the corresponding burger value.
+listSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
+for customer in range(0, len(listSortedCustomers)):
+    #listSortedCustomers[0].ljust(19) I don't understand how ljust() works
+    print(listSortedCustomers[0:1])
