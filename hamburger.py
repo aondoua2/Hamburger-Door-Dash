@@ -48,9 +48,8 @@ for iCount in range(1, newCustomer + 1): #It is plus one because it is not inclu
     # This is the code that adds Dictionary inputs.
     if iRandomName in dictCustomer:
         dictCustomer[iRandomName] = dictCustomer[iRandomName] + burgOrder
-        # Just printing out the outputs to see if it works.
-        #print (iRandomName, " - ", dictCustomer[iRandomName])
-        #queueCustomers.pop([0])  
+        while len(queueCustomers) > 0:
+            queueCustomers.pop(0) 
 
 # Print out each customer and their total burgers ordered sorted by the most number of burgers ordered
 
