@@ -41,7 +41,7 @@ dictCustomer = {
                 
 
 burgOrder = Order()
-burgOrder.randBurger = burgOrder.randomBurgers()
+# burgOrder.randBurger = burgOrder.randomBurgers()
 print(Person().customerName(), burgOrder.randBurger)
 
 # iSearch = Person.customer_name 
