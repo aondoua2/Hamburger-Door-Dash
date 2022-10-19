@@ -34,13 +34,11 @@ dictCustomer = {
                 }
 
 
-numCustomer = int(input("How many customers do you want to enter: "))
-
 queueCustomers = []
 newCustomer = 100
 
 # This is the code for the Queue.
-for iCount in range(1, numCustomer + 1): #It is plus one because it is not inclusive right?
+for iCount in range(1, newCustomer + 1): #It is plus one because it is not inclusive right?
     iRandomName = Person().randomName()
     queueCustomers.append(iRandomName)
     burgOrder = Order().randomBurger()
