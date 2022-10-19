@@ -26,5 +26,5 @@ class Customer(Person):
 
 
 burgOrder = Order()
-burgOrder.randBurger = burgOrder.randomBurgers()
+# burgOrder.randBurger = burgOrder.randomBurgers()
 print(Person().customerName(), burgOrder.randBurger)
