@@ -46,11 +46,15 @@ for iCount in range(1, newCustomer + 1): #It is plus one because it is not inclu
     if iRandomName in dictCustomer:
         dictCustomer[iRandomName] = dictCustomer[iRandomName] + burgOrder
         # Just printing out the outputs to see if it works.
-        print (iRandomName, " - ", dictCustomer[iRandomName])
+        #print (iRandomName, " - ", dictCustomer[iRandomName])
+        #queueCustomers.pop([0])  
 
 # Print out each customer and their total burgers ordered sorted by the most number of burgers ordered
 
 # This code does not work.
 listSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
 for customer in range(0, len(listSortedCustomers)):
-    print(listSortedCustomers[0:1])
+    print(listSortedCustomers[customer])
+
+
+# WE ARE ONLY MISSING THE POP AND LJUST FUNCTION
