@@ -75,7 +75,7 @@ for iCount in range(1, numCustomer):
 
 # if we want to print the customer list -- just playing with the code for now
 for iCustomer in range (0, len(queueCustomers)):
-    print(str(queue))
+    print(str(queue)) # i will fix this later!
    
 
 
