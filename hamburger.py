@@ -64,7 +64,7 @@ numCustomer = int(input("How many customers do you want to enter: "))
 queueCustomers = []
 newCustomer = 100
 
-for iCount in range(1, numCustomer):
+for iCount in range(1, numCustomer + 1): #It is plus one because it is not inclusive right?
     iRandomName = Person().customerName()
     iRandomBurger = burgOrder.randBurg
     queueCustomers.append(iRandomName)
