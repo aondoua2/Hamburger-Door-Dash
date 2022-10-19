@@ -55,7 +55,7 @@ for iCount in range(1, newCustomer + 1): #It is plus one because it is not inclu
 # Print out each customer and their total burgers ordered sorted by the most number of burgers ordered
 listSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
 for customer in range(0, len(listSortedCustomers)):
-    print(listSortedCustomers[customer])
+    # print(listSortedCustomers[customer])
 
 
 # WE ARE ONLY MISSING THE LJUST FUNCTION
