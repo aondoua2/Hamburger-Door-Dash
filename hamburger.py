@@ -24,6 +24,7 @@ class Customer(Person):
     def __init__(self):
         self.order = Order()
 
+#This is a dictionary data type. It holds the values for the customers' names and the number of orders. 
 dictCustomer = {
                 "Jefe" : 0,
                 "El Guapo" : 0,
@@ -54,5 +55,6 @@ for iCount in range(1, newCustomer + 1): #It is plus one because it is not inclu
 
 # Print out each customer and their total burgers ordered sorted by the most number of burgers ordered
 listSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
+#This for loop prints the value in the the sorted customer list.  
 for customer in range(0, len(listSortedCustomers)):
     print(listSortedCustomers[customer][0].ljust(19), listSortedCustomers[customer][1])
