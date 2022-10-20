@@ -54,7 +54,10 @@ for iCount in range(1, newCustomer + 1): #It is plus one because it is not inclu
             queueCustomers.pop(0) 
 
 # Print out each customer and their total burgers ordered sorted by the most number of burgers ordered
+print("\n","".ljust(6), "Top Customers")
+print("-" * 27)
 listSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
 #This for loop prints the value in the the sorted customer list.  
 for customer in range(0, len(listSortedCustomers)):
-    print(listSortedCustomers[customer][0].ljust(19), listSortedCustomers[customer][1])
+    print("|", listSortedCustomers[customer][0].ljust(19), str(listSortedCustomers[customer][1]).ljust(3), "|")
+print("-" * 27, "\n")
