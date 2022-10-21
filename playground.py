@@ -69,15 +69,12 @@ for iCount in range(1, numCustomer + 1): #It is plus one because it is not inclu
     iRandomBurger = burgOrder.randBurg
     queueCustomers.append(iRandomName)
     if iRandomName in dictCustomer:
-<<<<<<< HEAD
         dictCustomer[iRandomName] = dictCustomer[iRandomName] + burgOrder
         # Just printing out the outputs to see if it works.
         # print (iRandomName, " - ", dictCustomer[iRandomName])
-=======
         dictCustomer[iRandomName] + iRandomBurger
     queueCustomers.pop[0]
     #   dictCustomer[iSearch].customer_name = dictCustomer[iSearch].customer_name + randBurg
->>>>>>> aca41779dd637291e9e61254248a7f012ee8ac9c
 
 # if we want to print the customer list -- just playing with the code for now
 for iCustomer in range (0, len(queueCustomers)):
@@ -92,10 +89,7 @@ iBurgerCount = "Jefe" + burgOrder.randBurger
 # Compile the dictionary into a list that is sorted from high to low. Print each name with the corresponding burger value.
 listSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
 for customer in range(0, len(listSortedCustomers)):
-<<<<<<< HEAD
     print(listSortedCustomers[customer][0].ljust(19), listSortedCustomers[customer][1])
 # print(listSortedCustomers[customer - 1:customer], + '\n')
-=======
     #listSortedCustomers[0].ljust(19) I don't understand how ljust() works
     print(listSortedCustomers[0:1])
->>>>>>> aca41779dd637291e9e61254248a7f012ee8ac9c
