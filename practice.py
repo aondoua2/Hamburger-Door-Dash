@@ -52,7 +52,7 @@ for iCount in range(0, iCustomers) :
                 iOrder = int(input("What is  "))
                 customerName = input("What is the customers name: ")
                 iRandBurger = int(input("How many burgers does this customer want? "))
-                dictCustomer[iOrder] = Person(customerName, iRandBurger)
+                # dictCustomer[iOrder] = Person(customerName, iRandBurger)
 
 
 # for customer in newCustomer:
@@ -60,12 +60,12 @@ for iCount in range(0, iCustomers) :
 
 iSearch = int(input("Which student would you like to update? "))
             
-if iSearch in dictCustomer :
-    iNew_Credits = int(input("How many credits should be added to the student? "))
-    dictCustomer[iSearch].total_credits = dictCustomer[iSearch].total_credits + iNew_Credits
-    print(dictCustomer[iSearch].first_name + " has " + str(dictCustomer[iSearch].total_credits))
-else :
-    print("Key not found")  
+# if iSearch in dictCustomer :
+#     iNew_Credits = int(input("How many credits should be added to the student? "))
+#     dictCustomer[iSearch].total_credits = dictCustomer[iSearch].total_credits + iNew_Credits
+#     print(dictCustomer[iSearch].first_name + " has " + str(dictCustomer[iSearch].total_credits))
+# else :
+#     print("Key not found")  
 
 
 queueCustomers = [Customer()]
